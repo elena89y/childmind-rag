@@ -1,0 +1,66 @@
+[
+  {
+    "question_id": "q01",
+    "question": "What is secure attachment?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [2],
+    "evidence_quote": "In other words, when a child is securely attached to his mother and the feeling of closeness is restored, the seeking of proximity and closeness recedes and the child turns to other interests, comfortably using the caregiver as a base of operations from which to explore.",
+    "expected_answer": "안정 애착을 가진 아이는 보호자와의 가까움을 통해 안정감을 회복하면, 보호자를 안전한 기반으로 삼아 주변을 탐색할 수 있다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c2"
+    ],
+    "label_status": "draft"
+  },
+  {
+    "question_id": "q02",
+    "question": "How did Ainsworth assess infant attachment in the Strange Situation?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [2],
+    "evidence_quote": "Ainsworth had mother and 12-month-old infant pairs play in a room with toys and observed the infant’s reactions to several situations, including separation, for 20 minutes. First, would the infants use the mother as a secure base to explore the room and the new toys when the mother sits in the playroom, or would they cling to their mother and refuse to explore? Second, what would happen if the mother was told to leave the room briefly and a stranger entered? Would the child be distressed but then comforted, or would they remain distressed for the entire period the mother was gone? Third, what happened when the mother returned? Would the child be relieved, would they be indifferent, or would they be distressed?",
+    "expected_answer": "Ainsworth는 어머니와 생후 12개월 영아가 참여한 장난감이 있는 실험실에서 약 20분 동안 영아의 탐색 행동과 어머니의 이탈, 낯선 사람의 등장, 어머니와의 재회에 대한 반응을 관찰하여 애착을 평가했다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c2",
+      "attachment_temperament_2012_p2_c3"
+    ],
+    "label_status": "draft"
+  },
+  {
+    "question_id": "q03",
+    "question": "What does responsive caregiving involve?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [3],
+    "evidence_quote": "Responsive mothers were mothers who provided physical care, emotional communication, and affection to their children in clear relation to their signals of need. The mother’s reciprocal or contingent responses (reinforcement depending on the behavior of the child) by eye contact, cuddling, touching, or praise may reinforce the child’s communicative attempts, such as babbling or laughing. Responsive mothers also gave their children enough “space” when they were playing, crawling, or otherwise exploring their environment independently. The critical aspect of responsive caregiving is that the mothers are aware of their children’s needs and wants and respond to that information.",
+    "expected_answer": "반응적인 돌봄은 아이의 필요와 신호를 알아차려 적절한 돌봄과 애정으로 반응하고, 눈맞춤·접촉·칭찬 등으로 의사소통을 지원하면서 독립적으로 놀고 탐색할 공간도 제공하는 것이다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p3_c1"
+    ],
+    "label_status": "draft"
+  },
+  {
+    "question_id": "q04",
+    "question": "What does goodness-of-fit mean in parenting?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [5],
+    "evidence_quote": "Hence, they emphasize that interaction should be considered in terms of “goodness-of-fit,” which is the compatibility of a person’s temperament with their family, school, and community. Any temperament trait may not be inherently problematic; rather, it is the interaction that determines the “acceptability” of that trait.",
+    "expected_answer": "Goodness-of-fit은 개인의 기질과 가족·학교·지역사회 환경 사이의 적합성을 뜻하며, 기질 자체보다 환경과의 상호작용을 통해 그 특성을 이해하는 관점이다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p5_c2"
+    ],
+    "label_status": "draft"
+  },
+  {
+    "question_id": "q05",
+    "question": "How can caregivers adapt to a child's individual characteristics?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [1, 5],
+    "evidence_quote": "The influence of temperament and other attributes of children may be mitigated or negligible as long as caregivers modify their behavior to fit the needs of the children23).",
+    "expected_answer": "보호자는 아이의 기질과 개인적 특성에서 비롯되는 필요에 맞춰 자신의 양육 행동을 조절할 수 있다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p1_c1",
+      "attachment_temperament_2012_p1_c2",
+      "attachment_temperament_2012_p5_c1",
+      "attachment_temperament_2012_p5_c2"
+    ],
+    "label_status": "draft"
+  }
+]
