@@ -6,3 +6,4 @@ __pycache__/
 !.env.example
 data/raw/
 data/processed/
+.venv-eval/
