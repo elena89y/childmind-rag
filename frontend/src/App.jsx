@@ -53,7 +53,7 @@ function App() {
         <h1>문헌에서 찾는 양육의 근거</h1>
         <p className="intro">
           아동 발달·양육 문헌을 검색하고, 근거와 함께 답변합니다.
-          현재는 영어 질문을 입력하면 한국어로 답변합니다.
+          한국어 또는 영어로 질문하면 한국어로 답변합니다.
         </p>
       </header>
 
@@ -63,7 +63,7 @@ function App() {
           id="question"
           value={question}
           onChange={(event) => setQuestion(event.target.value)}
-          placeholder="What does responsive caregiving involve?"
+          placeholder="반응적인 돌봄은 무엇인가요?"
           maxLength={1000}
           rows={4}
           required
