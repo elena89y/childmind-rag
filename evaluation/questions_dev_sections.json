@@ -1,0 +1,279 @@
+[
+  {
+    "question_id": "q01",
+    "question": "What is secure attachment?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "In other words, when a child is securely attached to his mother and the feeling of closeness is restored, the seeking of proximity and closeness recedes and the child turns to other interests, comfortably using the caregiver as a base of operations from which to explore.",
+    "expected_answer": "안정 애착을 가진 아이는 보호자와의 가까움을 통해 안정감을 회복하면, 보호자를 안전한 기반으로 삼아 주변을 탐색할 수 있다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c1",
+      "attachment_temperament_2012_p2_s1_cleanv1_c2"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c1",
+      "attachment_temperament_2012_p2_c2"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q02",
+    "question": "How did Ainsworth assess infant attachment in the Strange Situation?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "Ainsworth had mother and 12-month-old infant pairs play in a room with toys and observed the infant’s reactions to several situations, including separation, for 20 minutes. First, would the infants use the mother as a secure base to explore the room and the new toys when the mother sits in the playroom, or would they cling to their mother and refuse to explore? Second, what would happen if the mother was told to leave the room briefly and a stranger entered? Would the child be distressed but then comforted, or would they remain distressed for the entire period the mother was gone? Third, what happened when the mother returned? Would the child be relieved, would they be indifferent, or would they be distressed?",
+    "expected_answer": "Ainsworth는 어머니와 생후 12개월 영아가 참여한 장난감이 있는 실험실에서 약 20분 동안 영아의 탐색 행동과 어머니의 이탈, 낯선 사람의 등장, 어머니와의 재회에 대한 반응을 관찰하여 애착을 평가했다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c2",
+      "attachment_temperament_2012_p2_s1_cleanv1_c3"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c2",
+      "attachment_temperament_2012_p2_c3"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q03",
+    "question": "What does responsive caregiving involve?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      3
+    ],
+    "evidence_quote": "Responsive mothers were mothers who provided physical care, emotional communication, and affection to their children in clear relation to their signals of need. The mother’s reciprocal or contingent responses (reinforcement depending on the behavior of the child) by eye contact, cuddling, touching, or praise may reinforce the child’s communicative attempts, such as babbling or laughing. Responsive mothers also gave their children enough “space” when they were playing, crawling, or otherwise exploring their environment independently. The critical aspect of responsive caregiving is that the mothers are aware of their children’s needs and wants and respond to that information.",
+    "expected_answer": "반응적인 돌봄은 아이의 필요와 신호를 알아차려 적절한 돌봄과 애정으로 반응하고, 눈맞춤·접촉·칭찬 등으로 의사소통을 지원하면서 독립적으로 놀고 탐색할 공간도 제공하는 것이다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p3_s1_cleanv1_c1"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p3_c1"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q04",
+    "question": "What does goodness-of-fit mean in parenting?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      5
+    ],
+    "evidence_quote": "Hence, they emphasize that interaction should be considered in terms of “goodness-of-fit,” which is the compatibility of a person’s temperament with their family, school, and community. Any temperament trait may not be inherently problematic; rather, it is the interaction that determines the “acceptability” of that trait.",
+    "expected_answer": "Goodness-of-fit은 개인의 기질과 가족·학교·지역사회 환경 사이의 적합성을 뜻하며, 기질 자체보다 환경과의 상호작용을 통해 그 특성을 이해하는 관점이다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p5_s1_cleanv1_c2"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p5_c2"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q05",
+    "question": "How can caregivers adapt to a child's individual characteristics?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      1,
+      5
+    ],
+    "evidence_quote": "The influence of temperament and other attributes of children may be mitigated or negligible as long as caregivers modify their behavior to fit the needs of the children23).",
+    "expected_answer": "보호자는 아이의 기질과 개인적 특성에서 비롯되는 필요에 맞춰 자신의 양육 행동을 조절할 수 있다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p1_s1_cleanv1_c1",
+      "attachment_temperament_2012_p1_s1_cleanv1_c2",
+      "attachment_temperament_2012_p5_s1_cleanv1_c1",
+      "attachment_temperament_2012_p5_s1_cleanv1_c2"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p1_c1",
+      "attachment_temperament_2012_p1_c2",
+      "attachment_temperament_2012_p5_c1",
+      "attachment_temperament_2012_p5_c2"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q06",
+    "question": "According to Bowlby, in which situations does a child particularly seek proximity to an attachment figure?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "notably when he is frightened, tired or ill.",
+    "expected_answer": "Bowlby의 설명에 따르면 아이는 특히 두렵거나 피곤하거나 아플 때 애착 대상에게 가까이 가고 접촉하려 한다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c1"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c1"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q07",
+    "question": "How did securely attached infants respond when their mothers left and returned in the Strange Situation?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "They played and explored comfortably when their mothers were present, became visibly upset when they left, and calmed quickly upon their return.",
+    "expected_answer": "안정 애착 영아는 어머니가 있을 때 편안하게 탐색했고, 떠나면 불편함을 보였으며 돌아오면 빠르게 진정했다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c3"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c3"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q08",
+    "question": "What behavior did Ainsworth describe as avoidant attachment?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "Some infants, however, sought little contact with their mothers and were not distressed when they left. Ainsworth labeled these patterns avoidant attachment.",
+    "expected_answer": "어머니와 접촉하려는 행동이 적고 어머니가 떠날 때 뚜렷한 불편함을 보이지 않는 양상을 회피 애착으로 설명했다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c3"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c3"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q09",
+    "question": "How did infants with ambivalent attachment react to separation and reunion?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "Although they protested excessively when their mothers left, they were not particularly comforted when they returned, a pattern Ainsworth labeled ambivalent (anxious- ambivalent, resistant) attachment.",
+    "expected_answer": "어머니가 떠날 때 강하게 항의했지만 돌아와도 충분히 위로받거나 진정되지 않는 반응을 보였다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c3"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c3"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q10",
+    "question": "Why does the review argue that feeding alone does not explain infant attachment?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      2
+    ],
+    "evidence_quote": "infants need emotional support and contact in addition to food and shelter.",
+    "expected_answer": "영아에게는 음식과 거처뿐 아니라 정서적 지지와 접촉도 필요하므로 애착을 수유만으로 설명할 수 없다고 본다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_s1_cleanv1_c4"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p2_c4"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q11",
+    "question": "Why do young children often communicate their needs through behavior?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      1
+    ],
+    "evidence_quote": "Young children do not have the language ability to express to their caregivers what they need, so children often communicate through their behavior.",
+    "expected_answer": "어린아이는 필요한 것을 보호자에게 말로 표현할 언어 능력이 충분하지 않아 행동으로 전달하는 경우가 많다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p1_s3_cleanv1_c1"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p1_c3"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q16",
+    "question": "Apart from malice, what reasons does the review give for children's misbehavior?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      4
+    ],
+    "evidence_quote": "Children who misbehave often do so not out of malice, but out of ignorance, boredom, or frustration, and simply need to be taught, listened to, or redirected.",
+    "expected_answer": "논문은 아이의 잘못된 행동이 악의보다는 잘 모르거나 지루하거나 좌절한 데서 비롯될 수 있다고 설명한다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p4_s1_cleanv1_c3"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p4_c3"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q17",
+    "question": "What alternative to immediately responding to attention-seeking misbehavior does the review describe?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      4
+    ],
+    "evidence_quote": "Instead, rewarding the child’ s appropriate behaviors with praise and hugs can be more effective.",
+    "expected_answer": "논문은 관심을 끌려는 행동에 즉시 반응하는 대신 적절한 행동을 칭찬과 포옹으로 보상하는 방법을 설명한다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p4_s1_cleanv1_c4"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p4_c4"
+    ],
+    "corpus_version": "sections_v1"
+  },
+  {
+    "question_id": "q18",
+    "question": "How does the review distinguish authoritative parenting from authoritarian parenting?",
+    "document_id": "attachment_temperament_2012",
+    "evidence_pdf_pages": [
+      5
+    ],
+    "evidence_quote": "authoritative (demanding and responsive to child with respectful attitude), authoritarian (demanding but not responsive, “do-as-I-say” style)",
+    "expected_answer": "Authoritative 양육은 요구를 하면서도 아이에게 존중하는 태도로 반응하지만, authoritarian 양육은 요구는 높고 반응성은 낮은 방식이다.",
+    "relevant_chunk_ids": [
+      "attachment_temperament_2012_p5_s1_cleanv1_c1"
+    ],
+    "label_status": "draft",
+    "split": "dev",
+    "original_relevant_chunk_ids": [
+      "attachment_temperament_2012_p5_c1"
+    ],
+    "corpus_version": "sections_v1"
+  }
+]
