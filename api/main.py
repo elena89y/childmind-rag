@@ -90,7 +90,7 @@ def query_rag(body: QueryRequest):
             detail="공백만 있는 질문은 입력할 수 없습니다.",
         )
 
-    # 이번 버전은 영어 질문으로 제한
+    # 한국어 검색 지원은 별도 작업으로 추가할 예정
     if re.search(r"[가-힣ㄱ-ㅎㅏ-ㅣ]", question):
         raise HTTPException(
             status_code=422,
@@ -152,7 +152,7 @@ def query_rag(body: QueryRequest):
             for item in fused[:3]
         ]
 
-        # 기존 로컬 Qwen 호출 함수 재사용
+        # 로컬 Qwen으로 답변 생성
         response = generate_answer(question, sources)
         answer = response.get("message", {}).get("content", "").strip()
 
@@ -162,13 +162,16 @@ def query_rag(body: QueryRequest):
                 detail="Ollama가 빈 답변을 반환했습니다.",
             )
 
+        # 인용 번호 확인
         cited_numbers = sorted({
             int(number)
             for number in re.findall(r"\[(\d+)\]", answer)
         })
 
         valid_numbers = set(range(1, len(sources) + 1))
-        invalid_numbers = sorted(set(cited_numbers) - valid_numbers)
+        invalid_numbers = sorted(
+            set(cited_numbers) - valid_numbers
+        )
 
         warnings = []
 
@@ -177,12 +180,24 @@ def query_rag(body: QueryRequest):
                 f"존재하지 않는 출처 번호: {invalid_numbers}"
             )
 
-        if not cited_numbers:
-            warnings.append("답변에 [숫자] 형태의 출처 인용이 없습니다.")
+        # 정해진 근거 부족 문장과 정확히 일치하는지 확인
+        is_abstention = (
+            answer == "제공된 문헌 근거만으로는 답하기 어렵습니다."
+        )
 
+        # 일반 답변에서 인용이 누락된 경우에만 경고
+        if not cited_numbers and not is_abstention:
+            warnings.append(
+                "답변에 [숫자] 형태의 출처 인용이 없습니다."
+            )
+
+        # 생성 길이 경고는 답변 종류와 관계없이 확인
         if response.get("done_reason") == "length":
-            warnings.append("생성 토큰 제한으로 답변이 끊겼을 수 있습니다.")
+            warnings.append(
+                "생성 토큰 제한으로 답변이 끊겼을 수 있습니다."
+            )
 
+        # 정상 응답은 인용 유무와 관계없이 반환
         return {
             "question": question,
             "answer": answer,
