@@ -127,7 +127,7 @@ function App() {
           )}
           <div>
             <p className="eyebrow">CHILDMIND RAG</p>
-            <h1>문헌에서 찾는 양육의 근거</h1>
+            <h1>아이의 성장과 배움을 이해하는 문헌 탐색</h1>
           </div>
         </header>
 
@@ -136,8 +136,8 @@ function App() {
             <div className="chat-empty">
               <p className="chat-empty-title">무엇이 궁금하세요?</p>
               <p className="chat-empty-sub">
-                아동 발달·양육 문헌을 검색하고, 근거와 함께 답변합니다.
-                한국어 또는 영어로 질문하면 한국어로 답변합니다.
+                아동 발달·양육·교육에 관한 질문을 입력해 보세요.
+                등록된 문헌에서 관련 내용을 찾아 출처와 함께 답변합니다.
               </p>
               <button
                 type="button"
@@ -219,7 +219,7 @@ function App() {
                 handleSubmit(event)
               }
             }}
-            placeholder="궁금한 내용을 질문하세요"
+            placeholder="아이의 발달과 배움에 대해 무엇이 궁금한가요?"
             maxLength={1000}
             rows={2}
             required
