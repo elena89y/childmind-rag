@@ -165,6 +165,61 @@ body {
   opacity: 0.85;
 }
 
+.history-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.history-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--sidebar-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.history-button:hover {
+  background: var(--sidebar-bg-elevated);
+}
+
+.history-button--active {
+  border-color: var(--sidebar-border);
+  background: var(--sidebar-bg-elevated);
+}
+
+.history-button:disabled {
+  cursor: wait;
+}
+
+.history-title {
+  width: 100%;
+  overflow: hidden;
+  color: var(--sidebar-text);
+  font-size: 13px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-date {
+  color: var(--sidebar-muted);
+  font-size: 11px;
+}
+
 .sidebar-overlay {
   display: none;
 }
